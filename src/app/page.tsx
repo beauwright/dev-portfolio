@@ -20,7 +20,7 @@ export default function Home() {
       <h3 className="text-3xl font-semibold text-indigo-400">
         Featured projects
       </h3>
-      <div className="flex space-x-4 py-4">
+      <div className="md:flex md:space-x-4 space-y-4 md:space-y-0 py-4">
         <ProjectCard
           title="Gospel Connections"
           description="Web app for AI semantic search of scriptures."
