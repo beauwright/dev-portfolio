@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Button } from "@/components/ui/button";
 import ProjectCard from "@/components/ui/project-card";
 
@@ -14,8 +14,8 @@ export default function Home() {
         <h1 className="text-6xl font-bold text-indigo-50">Beau Wright</h1>
       </div>
       <h2 className="text-4xl font-semibold text-indigo-200 py-4">
-        Junior developer with a passion for using web technologies to build
-        awesome experiences.
+        Junior developer located in Salt Lake City, UT with a passion for using web
+        technologies to build awesome experiences.
       </h2>
       <h3 className="text-3xl font-semibold text-indigo-400">
         Featured projects
@@ -36,7 +36,11 @@ export default function Home() {
           linkPath="https://github.com/beauwright/Conform-Sidekick"
         />
       </div>
-      <Button variant="secondary" className="text-indigo-800" onClick={() => window.open("/BeauWrightResume.pdf", "_blank")}>
+      <Button
+        variant="secondary"
+        className="text-indigo-800"
+        onClick={() => window.open("/BeauWrightResume.pdf", "_blank")}
+      >
         View Resume
       </Button>
     </main>
