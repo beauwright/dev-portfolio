@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button";
 import ProjectCard from "@/components/ui/project-card";
 
@@ -24,15 +25,19 @@ export default function Home() {
           title="Gospel Connections"
           description="Web app for AI semantic search of scriptures."
           imagePath="/gospel-connections-screenshot.png"
+          linkDescription="Watch Demo"
+          linkPath="https://drive.google.com/file/d/1dS5eoeo1kcK4fDQxlQZ3PQL12gzdqk6R/view?usp=sharing"
         />
         <ProjectCard
           title="Conform Sidekick"
           description="Desktop application to assist colorists with conforming."
           imagePath="/conform-sidekick-screenshot.png"
+          linkDescription="View on GitHub"
+          linkPath="https://github.com/beauwright/Conform-Sidekick"
         />
       </div>
-      <Button variant="secondary" className="text-indigo-800">
-        Download Resume
+      <Button variant="secondary" className="text-indigo-800" onClick={() => window.open("/BeauWrightResume.pdf", "_blank")}>
+        View Resume
       </Button>
     </main>
   );
