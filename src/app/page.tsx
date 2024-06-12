@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ui/project-card";
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-24 bg-gradient-to-b from from-indigo-900 to-black">
+    <main className="min-h-screen p-5 md:p-24 bg-gradient-to-b from from-indigo-900 to-black">
       <div className="flex items-center space-x-4 py-10">
         <img
           alt="Beau Wright Profile Picture"
